@@ -32,16 +32,6 @@ if resultado != None:
 else:
     print("No se ingresó un número válido.")
 
-#funcion con el ultimo parámetro "decimal" para verificar si es un decimal
-
-# resultado_decimal = get_number("Ingrese numero: ", "Reingrese: ", -1000 , 10000, 5)
-
-# if resultado_decimal != None:
-#     print(f"El numero decimal ingresado fue {resultado_decimal}")
-# else:
-#     print("No se ingresó un número decimal válido.")
-
-
 
 def get_string(longitud_permitida:int) -> str|None:
     cadena = input("Ingresa una string: ")
